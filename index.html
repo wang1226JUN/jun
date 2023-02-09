@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+         * {
+            padding: 0px;
+            margin: 0px;
+         }
+         body {
+            background-color: #da43f1;
+         }
+         p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+p {
+    font-family: 楷体;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    line-break: auto;
+}
+@keyframes slidein {
+  from {
+    margin-left: 200%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+}
+.junone {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.er {
+    width: 300px;
+     height: 30px;
+     background-color: red;
+     border: 2px solid red;
+     border-radius: 10px;
+     margin: 0 auto; 
+     font-family: 微软雅黑;
+     font-weight: bold;
+}
+p {
+    text-align:center;/*/文字居中/*/
+}
+.jun {
+
+    background-color: #ff00de;
+    width: 250px;
+    height: 500px;
+    margin: 0 auto;
+    border: 7px solid white;/*/border设置边框多粗/*/
+     border-radius: 30px; /*/设置圆角有多圆/*/
+}
+.b {
+
+width: 10px;
+
+height:20px;
+
+background-color:rgb(206, 42, 69);
+
+animation:name 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;/*/设置他的秒数/*/
+}
+
+@keyframes name{/*/@keyframes 是选择器/*/
+100%{width:50px;}/*/百分百是默认/*/
+}
+img {
+  position: absolute;
+  left: -60px;
+  width: 550px;
+  height: 400px; 
+  top: 600px;
+}
+.tp {
+  position: relative;
+  top: -600px;
+  left: -80px;
+  z-index: -1;
+}
+</style>
+</head>
+<body>
+     <p>宝宝情人节快乐</p>
+     <div class="junone er">宝宝2月14号是我们见面的第一天!!! </div>
+     <div class="b"></div>
+     <div class="jun"></div>  
+     <div class="b"></div>
+     <img src="http://r.photo.store.qq.com/psc?/V53RL1Vn06Xgso3xx9I53Gz3tW1VCoeB/05RlWl8gsTOH*Z17MtCBzNGAwQGQ7FlQQA8XdugNHkepbwW7IyI5wWvU07*Pvwphm25YTi1RkI7qHPFmO2mnhA!!/o&ek=1&kp=1&pt=0&bo=hANYAoQDWAIWADA!&tl=1&tm=1675951200&dis_t=1675952786&dis_k=39261a8f4460633ea5d212eabf338556&sce=0-12-12&rf=viewer_311" alt="">
+     <img src="http://r.photo.store.qq.com/psc?/V53RL1Vn06Xgso3xx9I53Gz3tW1VCoeB/05RlWl8gsTOH*Z17MtCBzI9odf72OnihtkCbUE.K6d0QkphpFRILbQHrgFKRjqc57sxvNKkiyP.AnbR*vcrKWg!!/o&ek=1&kp=1&pt=0&bo=hANYAoQDWAIWADA!&tl=1&tm=1675951200&dis_t=1675954273&dis_k=81d467cef880ac846ffaa81e6881f98f&sce=0-12-12&rf=viewer_311" alt="" class="tp">
+     </body>
+</html>
